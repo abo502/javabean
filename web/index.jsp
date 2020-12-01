@@ -8,28 +8,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Bean Demo</title>
+    <title>圆形计算</title>
   </head>
   <body>
 
-  <form action="./count.jsp" method="post">
-    <h1 align="center">正方形计算:</h1>
+  <form action="./result.jsp" method="post">
+    <h1 align="center" style="color: red">圆形计算:</h1>
     <br>
     <table border="1px" align="center">
       <tr>
-        <td>请输入边长:</td>
+        <td>请输入半径:</td>
         <td>
-          <input type="text" name="length"/>
-        </td>
-      </tr>
-      <tr>
-        <td>请输入宽:</td>
-        <td>
-          <input type="text" name="width"/>
+          <input type="text" name="radius"/>
         </td>
       </tr>
       <tr align="center">
-        <td colspan="2"><input type="submit" value="计算"></td>
+        <td colspan="2"><input type="submit" value="点击计算"></td>
       </tr>
     </table>
   </form>
